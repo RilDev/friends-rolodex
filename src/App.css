@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: hsla(200, 80%, 70%, 1);
 }
 
 .App-logo {
