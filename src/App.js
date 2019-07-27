@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import CardList from './components/card-list/card-list.component';
 
 const getFriends = async (url, callback) => {
   const response = await fetch(url);
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      {friends.length > 0 && friends.map(friend => <h1 key={friend.id}>{friend.name}</h1>)}
+      <CardList friends={friends} />
     </div>
   );
 }
