@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import CardList from './components/card-list/card-list.component';
+import SearchBox from './components/search-box/search-box.component';
 
 const getFriends = async (url, callback) => {
   const response = await fetch(url);
@@ -26,10 +27,9 @@ function App() {
 
   return (
     <div className="App">
-      <input
-        type="search"
+      <SearchBox
         placeholder="Search Friend"
-        onChange={e => setSearch(e.target.value)}
+        handleSearch={e => setSearch(e.target.value)}
       />
       <CardList friends={searchResult} />
     </div>
