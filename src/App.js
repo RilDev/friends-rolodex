@@ -27,6 +27,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Friends Rolodex</h1>
       <SearchBox
         placeholder="Search Friend"
         handleSearch={e => setSearch(e.target.value)}
