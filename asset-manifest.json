@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/friends-rolodex/static/css/main.b591fb35.chunk.css",
+    "main.js": "/friends-rolodex/static/js/main.16288d81.chunk.js",
+    "main.js.map": "/friends-rolodex/static/js/main.16288d81.chunk.js.map",
+    "runtime~main.js": "/friends-rolodex/static/js/runtime~main.de9bfdd2.js",
+    "runtime~main.js.map": "/friends-rolodex/static/js/runtime~main.de9bfdd2.js.map",
+    "static/js/2.71412b09.chunk.js": "/friends-rolodex/static/js/2.71412b09.chunk.js",
+    "static/js/2.71412b09.chunk.js.map": "/friends-rolodex/static/js/2.71412b09.chunk.js.map",
+    "index.html": "/friends-rolodex/index.html",
+    "precache-manifest.22827c204e212c9bf05dd75aae29cbf2.js": "/friends-rolodex/precache-manifest.22827c204e212c9bf05dd75aae29cbf2.js",
+    "service-worker.js": "/friends-rolodex/service-worker.js",
+    "static/css/main.b591fb35.chunk.css.map": "/friends-rolodex/static/css/main.b591fb35.chunk.css.map"
+  }
+}
